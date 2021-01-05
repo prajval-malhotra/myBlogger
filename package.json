@@ -1,0 +1,28 @@
+{
+  "name": "node-stuff",
+  "version": "1.0.0",
+  "description": "just trying to learn node",
+  "main": "app.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "keywords": [
+    "what"
+  ],
+  "author": "prajju",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.9",
+    "morgan": "^1.10.0"
+  }
+}

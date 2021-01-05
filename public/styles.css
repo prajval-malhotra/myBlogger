@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+    body{
+      background-color:#18191a ;
+      color: #E4E6EB;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+      font-family: 'Noto Serif', serif;
+      max-width: 1200px;
+    }
+    p, h1, h2, h3, a, ul{
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      color: #e4e6eb;
+    }
+
+    nav{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 60px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+      text-transform: uppercase;
+    }
+    nav ul{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    nav li{
+      list-style-type: none;
+      margin-left: 20px;
+    }
+    nav h1{
+      font-size: 3em;
+    }
+    nav p, nav a{
+      color: #E4E6EB;
+      font-weight: 300;
+    }
+
+    nav p, nav a:hover{
+      color: #818181;
+      font-weight: 300;
+      transition: 100ms;
+    }
+
+    footer{
+      color: #92251f;
+      text-align: center;
+      margin: 80px auto 20px;
+    }
+
+    footer{
+      color: #92251f;
+      text-align: center;
+      margin: 80px auto 20px;
+    }
+    
+    h2{
+      margin-bottom: 40px;
+    }
+    h3{
+      text-transform: capitalize;
+      margin-bottom: 8px;
+    }
+    .content{
+      margin-left: 20px;
+    }
+
+    .blogs a{
+      display: block;
+      margin: 40px 0;
+      padding-left: 10px;
+      border-left: 6px solid #ddd;
+    }
+
+    .delete{
+      position: relative;
+      top: 4.1em;
+      right: 0;
+      padding: 8px;  
+      color: #e23d34;
+      font-size: larger;
+    }
+
+    .blogs a:hover{
+      display: block;
+      margin: 40px 0;
+      padding-left: 10px;
+      transition: 190ms;
+      border-left: 6px solid #818181;
+    }
+
+    .blogs h3{ 
+      color:  #818181;
+    }
+    .blogs h3:hover{ 
+      color:  #c7bfbf;
+      transition: 190ms;
+    }
+    .blogs p{ 
+      margin-bottom: 2em;
+    }
+    
+    .single h3{
+      display: block;
+      border-left: #92251f;
+    }
+
+    .create-blog form{
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .create-blog input,
+    .create-blog textarea{
+      background-color: #242526;
+      color:#ddd;
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 8px;
+    }
+    .create-blog input,
+    .create-blog textarea{
+      background-color: #242526;
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 8px;
+    }
+    .create-blog label{
+      display: block;
+      margin-top: 24px;
+    }
+    textarea{
+      height: 120px;
+    }
+    .create-blog button{
+      margin-top: 20px;
+      background: #7289da;
+      color: white;
+      padding: 6px;
+      border: 0;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
