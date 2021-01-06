@@ -116,6 +116,7 @@ app.get('/blogs/:id', (req, res) => {
     })
     .catch(err => {
       console.log("blogs/id: ERROR", err);
+      res.redirect('/404')
     });
 });
 
