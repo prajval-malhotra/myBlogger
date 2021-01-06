@@ -8,7 +8,7 @@ const app = express();
 
 const dbURI = 'mongodb+srv://vkk:Databas3@cluster0.vofsx.mongodb.net/node-tuts?retryWrites=true&w=majority';
 mongoose.connect(dbURI, {useNewUrlParser: true, useUnifiedTopology: true})
-.then((result) => app.listen(3000))
+.then((result) => app.listen(process.env.port || 3000))
 .catch((err) => console.log("LISTENING ERROR:", err));
 
 // app.listen(3000);
